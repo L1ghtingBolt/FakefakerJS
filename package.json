@@ -1,6 +1,6 @@
 {
   "name": "fakefakerjs",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Faker.JS clone.",
   "main": "index.js",
   "scripts": {
