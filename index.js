@@ -48,7 +48,7 @@ export const fakefaker = {
         return retVal;
     },
     address: () => {
-        return `${Math.floor(Math.random() * 10000)} ${streets[Math.floor(Math.random(streets.length))]}, ${Math.random().toString(36).replace(/[^a-z]+/g, '').substring(0, 2).toUpperCase()} ${Math.floor(Math.random() * 99999)}`
+        return `${Math.floor(Math.random() * 10000)} ${streets[Math.floor(Math.random() * streets.length)]}, ${Math.random().toString(36).replace(/[^a-z]+/g, '').substring(0, 2).toUpperCase()} ${Math.floor(Math.random() * 99999)}`
     },
     country: () => {
         return countries[Math.floor(Math.random() * countries.length)];
@@ -72,6 +72,9 @@ export const fakefaker = {
     },
     city: () => {
         return cities[Math.floor(Math.random() * cities.length)];
+    },
+    version: () => {
+        return '1.1.0'
     }
 }
 
